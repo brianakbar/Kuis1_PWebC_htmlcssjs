@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quiz 1 : Formulir Pendaftaran</title>
+</head>
+<body>
+    <div class="container">
+	<div class="header">
+		<h1>PEMERINTAH KABUPATEN SOLOK</h1>
+		<h1>RUMAH SAKIT UMUM DAERAH AROSUKA</h1>
+		<h3>Jl. Raya Solok Padang KM. 20 Arosuka Kode pos 27364</h3>
+		<h3>Propinsi Sumatra Barat Telp / Fax (0755) 31160</h3>
+		<h3>Email : raudarosukakabsolok@gmail.com</h3>
+	</div>
+	<hr>
+        <h1>Formulir Pendaftaran Pasien Baru</h1>
+        <h2><u>PERHATIAN : HARAP MENGISI FORMULIR INI DENGAN LENGKAP DAN JELAS</u></h2>
+	<h3>I.IDENTITAS PASIEN</h3>
+        <div class="table">
+            <div class="table-row">
+                <label class="input-label table-cell" for="nama-pasien">Nama Pasien: </label>
+                <input type="text" class="table-cell" id="nama-pasien" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="tempatl">Tempat Lahir: </label>
+                <input type="text" class="table-cell" id="tempatl" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="tanggall">Tanggal Lahir: </label>
+                <input type="datetime-local" class="table-cell" id="tanggall"/>
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="jenisk">Jenis Kelamin: </label>
+                <input type="text" class="table-cell" id="jenisk" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="alamat">Alamat: </label>
+                <input type="text" class="table-cell" id="alamat" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="provinsi">Provinsi: </label>
+                <input type="text" class="table-cell" id="provinsi" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="kecamatan">Kecamatan: </label>
+                <input type="text" class="table-cell" id="kecamatan" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="keles">Kelurahan/Desa: </label>
+                <input type="text" class="table-cell" id="keles" />
+            </div>
+	    <div class="table-row">
+                <label class="input-label table-cell" for="notelp">No. Tel/Hp: </label>
+                <input type="text" class="table-cell" id="notelp" />
+            </div>
+	    <div class="table-row">
+                <label class="input-label table-cell" for="kodepos">Kode Pos: </label>
+                <input type="text" class="table-cell" id="kodepos" />
+            </div>
+            <div class="table-row radio-but">
+                <label class="input-label table-cell" for="lomba">Agama: </label>
+                <div class="lombaradio" class="table-cell" id="radio">
+                    <input type="radio" id="radio-1" name="fav_language" value="HTML">
+                    <label for="radio-1">1. Islam</label><br>
+                    <input type="radio" id="radio-2" name="fav_language" value="HTML">
+                    <label for="radio-2">2. Kristen</label><br>  
+                    <div class="flex">
+		        <input type="radio" id="radio-3" name="fav_language" value="HTML">
+                    	<label id="radio-3-label" for="radio-3">3. </label><br>
+		    	<input type="text"/> 
+		    </div>
+                </div> 
+            </div>
+	    <div class="table-row">
+                <label class="input-label table-cell" for="pter">Pendidikan Terakhir: </label>
+                <input type="text" class="table-cell" id="pter" />
+            </div>
+	    <div class="table-row">
+                <label class="input-label table-cell" for="pekerjaan">Pekerjaan: </label>
+                <input type="text" class="table-cell" id="pekerjaan" />
+            </div>
+        </div>
+	<h3>II.PENANGGUNG JAWAB PASIEN</h3>
+        <div class="table">
+           <div class="table-row">
+                <label class="input-label table-cell" for="hub">Hubungan Dengan Pasien: </label>
+                <div class="lombaradio" class="table-cell" id="hub">
+                    <input type="radio" id="radio2-1" name="hubungan" value="HTML">
+                    <label for="radio-1">Suami</label><br>
+                    <input type="radio" id="radio2-2" name="hubungan" value="HTML">
+                    <label for="radio-2">Istri</label><br>
+                    <input type="radio" id="radio2-3" name="hubungan" value="HTML">
+                    <label for="radio-3">Ortu</label><br> 
+                    
+                    <div class="flex">
+		        <input type="radio" id="radio2-4" name="hubungan" value="HTML">
+                    
+		    	<input type="text"/> 
+		    </div>
+                </div> 
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="penanngung-jawab">Penanggung Jawab: </label>
+                <input type="text" class="table-cell" id="penanngung-jawab" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="pendidikanp">Pendidikan P. Jawab: </label>
+                <input type="text" class="table-cell" id="pendidikanp" />
+            </div>
+            <div class="table-row">
+                <label class="input-label table-cell" for="pekerjaanp">Pekerjaan P. Jawab: </label>
+                <input type="text" class="table-cell" id="pekerjaanp" />
+            </div>
+	</div>
+        <div class="ttd">
+            <div class="ttd-pasien">
+                <p class="ttd-label">Tanda Tangan</p>
+                <input type="file"/>
+            </div>
+        </div>
+        <div class="bottom"></div>
+        <div class="button-container">
+            <input type="submit" class="button" value="Submit" onclick="success()" />
+        </div>
+    </div>
+    <script src="script.js></script>
+</body>
+</html>
